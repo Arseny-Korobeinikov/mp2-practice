@@ -197,8 +197,6 @@ TabRecord<TKey, TData>* HashTable<TKey, TData>::operator[](const TKey& _key) {
 	return find(_key);
 }
 
-
-
 template <class TKey, class TData>
 void HashTable<TKey, TData>::next(int pos)
 {
